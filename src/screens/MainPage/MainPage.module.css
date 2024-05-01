@@ -1,0 +1,47 @@
+.main{
+    background-image: url('https://images.snapwi.re/9744/5a854a840eca1e000113dcfa.w800.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 80vh;
+}
+
+.centerBlock{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 33rem;
+    position: absolute;
+    top: 50%;
+    left:52%;
+    transform: translate(-50%, -50%); 
+    padding: 30px;  
+}
+
+.content{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    /* font-size: xx-large; */
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+p{
+    font-size: large;
+    padding: 10px;
+}
+
+.startButton{
+    border-radius: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+    
+}
+

@@ -1,0 +1,32 @@
+.aboutPage{
+    background-color:rgb(182, 180, 180);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerAbout{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 33rem;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
+
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.learnMore{
+    border-radius: 0;
+    margin-bottom: 1rem;
+}
+

@@ -1,0 +1,43 @@
+
+.subNavbar { 
+    background-color:rgb(226, 233, 250) !important ;
+  }
+  
+
+.dropButton,
+.dropButton:hover, 
+.dropButton:active,
+.dropButton.show,
+.dropdown-menu > .dropdown-item:hover 
+{
+    background-color: rgb(226, 233, 250) !important ;
+}
+
+
+.dropButton {
+    margin-top: 0.1rem; 
+  }
+
+  .dropButton::after{
+    display: none;
+  }
+  .navItem{
+    margin-right: 4.5rem;
+  }
+
+  .nav-item:hover .custom-dropdown-menu {
+    display: block; 
+  }
+  
+  .customDropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+  }
+
+  
+
+
+  
+

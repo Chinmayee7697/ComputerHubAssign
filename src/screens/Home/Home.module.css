@@ -1,0 +1,33 @@
+.navs{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+}
+.navbarBox{
+    box-shadow: inset 0px -5px 5px -5px rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+
+}
+
+.subnavbarBox{
+    background-color: rgb(226, 233, 250);
+    box-shadow: inset 0px -5px 5px -5px rgba(246, 246, 246, 0.99);
+    padding: 5px;
+}
+
+.mainPage{
+    max-height: fit-content;
+    margin-top: 8rem;
+}
+
+.aboutUs{
+    background-color:rgb(182, 180, 180);
+}
+
+
+
+
